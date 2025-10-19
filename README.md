@@ -17,6 +17,7 @@
 ### 安装依赖
 
 ```bash
+git clone https://github.com/MakotoArai-CN/2048-ai-solver.git
 bun install
 ```
 
@@ -65,8 +66,8 @@ vite build -m offline
 ### 安装脚本
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 或 [Scriptcat](https://www.scriptcafe.org/) 等用户脚本管理器
-2. 打开 `dist/2048-ai.user.js` (在线版) 或 `dist/2048-ai-offline.user.js` (离线版)
-3. 点击安装
+2. 找到 `dist/2048-ai.user.js` (在线版) 或 `dist/2048-ai-offline.user.js` (离线版)，拖到浏览器，点击安装
+3. 或者在脚本猫市场安装：[2048 AI Solver](https://scriptcat.org/zh-CN/script-show-page/4418)
 
 ## 使用
 
