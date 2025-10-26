@@ -98,3 +98,7 @@ MIT License
 
 - [2048-ai](https://github.com/ziap/2048-ai) - 2048 AI 算法来源
 - [2048 Game](https://github.com/gabrielecirulli/2048) - 2048 原版游戏
+
+## 反馈
+
+欢迎提交 [issues](https://github.com/MakotoArai-CN/2048-ai-solver/issues) 或 [PR](https://github.com/MakotoArai-CN/2048-ai-solver/pulls)
