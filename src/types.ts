@@ -1,6 +1,10 @@
-export type Direction = 0 | 1 | 2 | 3; // up, right, down, left
+export type Direction = 0 | 1 | 2 | 3;
+
 export type Grid = number[][];
-export type Row = number; // uint16
+
+export type Row = number;
+
+export type SpeedMode = 'auto' | 30 | 90 | 180 | 360 | 500;
 
 export interface GameState {
   gridData: Grid;
@@ -24,7 +28,6 @@ export interface CachedWasm {
   version: string;
 }
 
-// ==================== 编译时常量类型声明 ====================
 declare global {
   const __BUILD_MODE__: 'online' | 'offline';
   const __INLINE_WASM__: string | null;

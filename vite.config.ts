@@ -130,7 +130,7 @@ export default defineConfig({
       userscript: {
         name: `2048 AI Solver ${buildMode === 'offline' ? '(Offline)' : ''}`,
         namespace: 'https://github.com/MakotoArai-CN/2048-ai-solver',
-        version: '1.0.0',
+        version: '1.0.1',
         description: buildMode === 'offline' 
           ? '使用 WebAssembly 加速的 2048 AI求解器（离线版，无需联网）'
           : '使用 WebAssembly 加速的 2048 AI求解器，支持合成丘丘王',

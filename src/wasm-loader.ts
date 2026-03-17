@@ -6,17 +6,15 @@ declare const __INLINE_WASM__: string | null;
 
 // ==================== 在线模式配置 ====================
 const WASM_SOURCES = [
-  'https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://raw.kkgithub.com/ziap/2048-ai/master/ai.wasm',
-  'https://wget.la/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://hk.gh-proxy.com/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://hub.glowp.xyz/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://ghfast.top/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://ghproxy.net/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://gh.catmak.name/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://fastly.jsdelivr.net/gh/ziap/2048-ai@master/ai.wasm',
-  'https://g.blfrp.cn/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm',
-  'https://github.3x25.com/https://raw.githubusercontent.com/ziap/2048-ai/master/ai.wasm'
+  'https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://wget.la/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://hk.gh-proxy.com/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://hub.glowp.xyz/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://ghfast.top/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://ghproxy.net/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://gh.catmak.name/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://g.blfrp.cn/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm',
+  'https://github.3x25.com/https://github.com/MakotoArai-CN/2048-ai-solver/blob/a25a346e55ec5298080bfc445214c1a239b39b8e/public/ai.wasm'
 ];
 
 const CACHE_KEY = '2048_wasm_cache';
